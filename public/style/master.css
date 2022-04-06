@@ -94,8 +94,7 @@ table {
 /* content */
 .row div {
   background-color: #ef5350;
-  padding: 3%;
-  border: 1px solid white;
+  padding: 1%;
   border-radius: 5px;
   text-align: right;
   color: white;
@@ -192,7 +191,19 @@ table {
   }
 }
 
+.circle {
+  border-radius: 50%;
+}
+
+.center {
+  text-align: center;
+}
+
 nav {
   margin-top: 0 !important;
+}
+
+nav .logo-wrapper {
+  text-align: center;
 }
 /*# sourceMappingURL=master.css.map */
